@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You</title>
+
+<link rel="stylesheet" href="templatemo-623-novapay-style.css">
+
+<style>
+.thankyou-wrap{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+text-align:center;
+}
+
+.thankyou-card{
+max-width:600px;
+background:var(--bg2);
+border:1px solid var(--border);
+padding:50px;
+border-radius:20px;
+}
+
+.thankyou-card h1{
+font-size:42px;
+margin-bottom:15px;
+color:var(--sky);
+}
+
+.thankyou-card p{
+color:var(--text2);
+margin-bottom:25px;
+}
+
+.back-btn{
+display:inline-block;
+padding:12px 25px;
+background:var(--sky);
+color:#000;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+}
+</style>
+</head>
+
+<body>
+
+<div class="thankyou-wrap">
+  <div class="thankyou-card">
+      <h1>Thank You!</h1>
+      <p>Your form has been submitted successfully.</p>
+      <a href="index.html" class="back-btn">Back to Home</a>
+  </div>
+</div>
+
+<!-- Meta Lead Event -->
+<script>
+fbq('track', 'Lead');
+</script>
+
+</body>
+</html>
